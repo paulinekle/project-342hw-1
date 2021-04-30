@@ -7,10 +7,9 @@
 
 img{
     max-width: 100%;
-    padding-top: 10%;
     padding-right: 10%;
     padding-left: 10%;
-    padding-bottom: 10%;
+   
 }
 
 
@@ -72,6 +71,19 @@ header{
     -o-animation: blink 1s;
     -o-animation-iteration-count: infinite;
 }
+
+.button {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: white;
+    border: 2px solid salmon;
+    background-color: salmon;
+    padding: 8px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 
 @media only screen and (min-width:768px) {
