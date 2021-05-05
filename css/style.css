@@ -95,16 +95,14 @@ header {
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter p {
-  color: #0f2436;
-  font-family: 'Cagliostro', sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 5s steps(30, end),
-    blink-caret .5s step-end infinite;
+  typing 5s steps(30, end),
+  blink-caret .5s step-end infinite;
 }
 
 
@@ -133,8 +131,10 @@ p {
     padding-top: 90px;
     display:block;
     margin: auto;
-    
-}
+    color: #0f2436;
+    font-family: 'Cagliostro';
+   }
+
 
 
 
