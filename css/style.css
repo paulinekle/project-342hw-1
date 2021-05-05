@@ -95,6 +95,7 @@ header {
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter p {
+font-family: 'Karma';
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -104,7 +105,6 @@ header {
   typing 5s steps(30, end),
   blink-caret .5s step-end infinite;
 }
-
 
 /* The typing effect */
 @keyframes typing {
@@ -132,8 +132,11 @@ p {
     display:block;
     margin: auto;
     color: #0f2436;
-    font-family: 'Cagliostro';
+    
    }
+p {
+    font-family: 'Karma';
+}
 
 
 
